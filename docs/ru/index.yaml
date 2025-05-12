@@ -1,4 +1,4 @@
-title: Шаблон документации
+title: Документация
 links:
   - title: О проекте
     href: about.md
@@ -8,3 +8,5 @@ links:
     href: anotherpage.md
   - title: Подраздел на главной странице
     href: sub-section/
+hide:
+- navbar

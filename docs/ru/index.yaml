@@ -2,11 +2,11 @@ title: Документация
 links:
   - title: О проекте
     href: about.md
-  - title: Страница Diplodoc на главной странице
+  - title: Схема базы данных
     href: page.md
-  - title: Структура YFM на главной странице
+  - title: Основные сущности системы
     href: anotherpage.md
-  - title: Подраздел на главной странице
+  - title: Компоненты
     href: sub-section/
 hide:
 - navbar

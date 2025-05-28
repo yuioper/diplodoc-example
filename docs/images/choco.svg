@@ -1,0 +1,46 @@
+<svg width="240" height="320" viewBox="0 0 240 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M164 4C164 1.79086 165.791 0 168 0H240V8H168C165.791 8 164 6.20914 164 4Z" fill="#D3DEDC"/>
+<rect x="140" y="128" width="76" height="76" fill="#D3DEDC"/>
+<path d="M216 128L140 204H216V128Z" fill="#CADBD8"/>
+<path d="M140 60.2246V24H176.225L140 60.2246Z" fill="#8CAFA8"/>
+<path d="M228 100H140V65.8818L181.882 24H228V100Z" fill="#A8C3BE"/>
+<rect x="128" y="232" width="88" height="76" fill="#D3DEDC"/>
+<rect x="78" y="116" width="22" height="8" rx="4" fill="#D3DEDC"/>
+<rect x="128" y="116" width="88" height="8" fill="#D3DEDC"/>
+<rect x="194" y="12" width="34" height="8" fill="#D3DEDC"/>
+<rect x="194" y="220" width="34" height="8" fill="#D3DEDC"/>
+<rect x="12" y="152" width="8" height="52" fill="#D3DEDC"/>
+<rect x="128" y="152" width="8" height="52" fill="#D3DEDC"/>
+<rect x="128" y="128" width="8" height="20" fill="#BAD1CD"/>
+<rect x="220" y="184" width="8" height="20" fill="#D3DEDC"/>
+<path d="M24 252C24 240.954 32.9543 232 44 232H112V320H24V252Z" fill="#BAD1CD"/>
+<rect x="116" y="84" width="8" height="236" fill="#D3DEDC"/>
+<rect x="232" y="12" width="8" height="308" fill="#D3DEDC"/>
+<rect y="169" width="8" height="151" fill="#D3DEDC"/>
+<rect x="12" y="208" width="100" height="8" fill="#BAD1CD"/>
+<rect x="128" y="208" width="100" height="8" fill="#BAD1CD"/>
+<rect x="128" y="104" width="100" height="8" fill="#BAD1CD"/>
+<rect x="128" y="312" width="100" height="8" fill="#BAD1CD"/>
+<rect x="128" y="12" width="62" height="8" fill="#BAD1CD"/>
+<rect x="128" y="220" width="62" height="8" fill="#BAD1CD"/>
+<rect x="104" y="116" width="8" height="93" fill="#BAD1CD"/>
+<path d="M100 204H24V184.338L80.3379 128H100V204ZM24 178.682V173.067L69.0674 128H74.6816L24 178.682ZM24 167.411V148.627L44.627 128H63.4111L24 167.411ZM24 142.971V128H38.9707L24 142.971Z" fill="#D3DEDC"/>
+<rect x="220" y="116" width="8" height="64" fill="#BAD1CD"/>
+<path d="M20 320H12V248C12 232.536 24.536 220 40 220H112V228H40C28.9543 228 20 236.954 20 248V320Z" fill="#D3DEDC"/>
+<path d="M128 20H136V44C131.582 44 128 40.4183 128 36V20Z" fill="#BAD1CD"/>
+<rect x="220" y="232" width="8" height="76" fill="#BAD1CD"/>
+<rect x="132" y="232" width="4" height="76" fill="#C5D8D5"/>
+<rect x="172" y="232" width="4" height="76" fill="#BAD1CD"/>
+<rect x="140" y="232" width="4" height="76" fill="#C5D8D5"/>
+<rect x="180" y="232" width="4" height="76" fill="#B5CAC6"/>
+<rect x="148" y="232" width="4" height="76" fill="#C5D8D5"/>
+<rect x="188" y="232" width="4" height="76" fill="#B5CAC6"/>
+<rect x="156" y="232" width="4" height="76" fill="#ABC6C2"/>
+<rect x="196" y="232" width="4" height="76" fill="#B5CAC6"/>
+<rect x="164" y="232" width="4" height="76" fill="#BAD1CD"/>
+<rect x="204" y="232" width="4" height="76" fill="#B5CAC6"/>
+<rect x="212" y="232" width="4" height="76" fill="#A8C3BE"/>
+<rect x="84" y="244" width="20" height="34" rx="10" fill="#D3DEDC"/>
+<rect x="32" y="268" width="20" height="20" rx="10" fill="#D3DEDC"/>
+<rect x="52" y="305" width="42" height="20" rx="10" fill="#D3DEDC"/>
+</svg>

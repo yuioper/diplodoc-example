@@ -17,7 +17,7 @@
 ## Авторизация
 
 
-``` mermaid
+```mermaid
 sequenceDiagram
     participant Client
     participant Auth as AuthService
@@ -48,7 +48,70 @@ sequenceDiagram
 ```
 
 
-## Паттерны прооектирования
+## Паттерны проектирования
+
+```mermaid
+graph TB
+    subgraph "Презентационный слой"
+        Pages[Pages]
+        Controllers[Controllers]
+        Views[Views]
+    end
+
+    subgraph "Бизнес-логика"
+        Auth[AuthService]
+        Users[UsersService]
+        Orders[OrdersService]
+        Companies[CompaniesService]
+        Files[FileService]
+        Reports[ReportService]
+    end
+
+    subgraph "Инфраструктура"
+        DB[(Database)]
+        FileStorage[File Storage]
+        NetworkStorage[Network Storage]
+    end
+
+    subgraph "Базовые компоненты"
+        Service[Base Service]
+        Validator[Model Validator]
+        Mapper[AutoMapper]
+        UoW[Unit of Work]
+    end
+
+    %% Связи презентационного слоя
+    Pages --> Auth
+    Pages --> Users
+    Pages --> Orders
+    Pages --> Companies
+    Pages --> Files
+    Pages --> Reports
+
+    %% Связи сервисов с базовыми компонентами
+    Auth --> Service
+    Users --> Service
+    Orders --> Service
+    Companies --> Service
+    Files --> Service
+    Reports --> Service
+
+    %% Связи базовых компонентов
+    Service --> DB
+    Service --> Mapper
+    Service --> Validator
+    Service --> UoW
+
+    %% Связи с хранилищами
+    Files --> FileStorage
+    Reports --> NetworkStorage
+
+    class Auth,Users,Orders,Companies,Files,Reports service
+    class DB,FileStorage,NetworkStorage infrastructure
+    class Service,Validator,Mapper,UoW base
+    class Pages,Controllers,Views presentation
+
+```
 1. Unit of work
 
 ```csharp
@@ -108,3 +171,74 @@ public static void AddMdz(this IServiceCollection services, IConfiguration confi
 ```
 
 ## Базовые классы 
+
+
+```mermaid
+flowchart LR
+    A-- This is the text! ---B
+
+
+```
+
+```mermaid
+flowchart TB
+    subgraph "Презентационный слой"
+        Pages[Pages]
+        Controllers[Controllers]
+        Views[Views]
+    end
+
+    subgraph "Бизнес-логика"
+        Auth[AuthService]
+        Users[UsersService]
+        Orders[OrdersService]
+        Companies[CompaniesService]
+        Files[FileService]
+        Reports[ReportService]
+    end
+
+    subgraph "Инфраструктура"
+        DB[(Database)]
+        FileStorage[File Storage]
+        NetworkStorage[Network Storage]
+    end
+
+    subgraph "Базовые компоненты"
+        Service[Base Service]
+        Validator[Model Validator]
+        Mapper[AutoMapper]
+        UoW[Unit of Work]
+    end
+
+    %% Связи презентационного слоя
+    Pages --> Auth
+    Pages --> Users
+    Pages --> Orders
+    Pages --> Companies
+    Pages --> Files
+    Pages --> Reports
+
+    %% Связи сервисов с базовыми компонентами
+    Auth --> Service
+    Users --> Service
+    Orders --> Service
+    Companies --> Service
+    Files --> Service
+    Reports --> Service
+
+    %% Связи базовых компонентов
+    Service --> DB
+    Service --> Mapper
+    Service --> Validator
+    Service --> UoW
+
+    %% Связи с хранилищами
+    Files --> FileStorage
+    Reports --> NetworkStorage
+
+    class Auth,Users,Orders,Companies,Files,Reports service
+    class DB,FileStorage,NetworkStorage infrastructure
+    class Service,Validator,Mapper,UoW base
+    class Pages,Controllers,Views presentation
+
+```
